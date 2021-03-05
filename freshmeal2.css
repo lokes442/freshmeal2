@@ -1,0 +1,149 @@
+body{
+margin: 0; padding: 0; 
+}
+
+.container{ width: 100%; height: 400px; background-color: black ; 
+    background-image:url(food1.jpg),url(food2.jpg); background-repeat:no-repeat;  
+    background-size: 480px; background-position:left ;
+    animation-name: example; animation-duration: 8s; 
+
+}  
+@keyframes example{
+    25% {background-image: url(food1.jpg);}
+    50%{background-image: url(food2.jpg);}
+    75%{background-image: url(3.jpg);}
+}
+h2{
+    color:seashell; font-size: 90px; position: relative; display: initial; align-items: stretch;
+left: 700px;
+}
+.fast{color:seashell; font-style: italic ;font-size: 30px; position: absolute; display: inherit;
+     left: 700px; padding: 20px;
+     
+}
+
+ul{
+    margin: 0px;  height: 30px; line-height: 30px; padding: 5px;
+     list-style: none;
+ background-color: black; font-family: 'Courier New', Courier, monospace;
+ font-size: 20px; 
+}
+li{
+    float: left; border-right:5px #156ee2 ; width: 400px;
+}
+a{
+    display: block; align-items: center;  
+padding: 0 28; color:#fff;
+text-decoration: none;
+}
+a:hover,.active a{
+    background-color: blue;
+}
+
+h1{ color: #ffa43c; border: 10px #000;
+
+}
+.cc{
+    width: 15%;
+    border-right: 2px solid green ; padding: 30px;  
+}
+.main{ width: 300px;height: 40px; font-size: 25px;  color:rgb(255, 0, 0) ;
+ 
+}
+option{
+  display: flex;align-items: center; 
+}
+.part{
+    width: 15%;left: 900px;
+    position: absolute; ;
+      bottom: -10%; border-bottom: solid 2px #000; 
+
+}
+h3{
+ font-size: 30px  ;  
+}
+.cart{ margin:0; position: absolute; width: 70%; left: 600px; bottom: -40%;
+    
+ }
+ h6{
+     font-size: 30px; line-height: inherit;
+ }
+.item{ font-size: 15px; 
+}
+.Subtotal{
+ font-weight: bolder;
+}
+.Extra{
+}
+.btn{ background-color:orangered; width:  250px; height: 40px; border: hidden}
+
+.about{
+    position: inherit; bottom:-260% ; font-size:x-large
+}
+h4{ 
+ position: initial;   font-size: 40px; color: red; font-family: 'Lucida Sans';
+}
+
+.abou{ 
+ position:relative;  font-style: initial; font-family: sans-serif; margin: 20px;   
+width: 600px;
+}
+
+
+.img{
+  background-image: url(food4.jpg) ,url(beverage1.jpg),url(pizza.jpg) ;
+   background-size: 100% ; 
+   background-position:0px 0px,0px 400px, 0px 600px;
+   display: block;position:absolute;   background-repeat: no-repeat; 
+   bottom: -450% ;  width: 700;height: 800px; padding: 100px; margin: 100px; 
+    color:rgb(255, 255, 255);
+}
+span{
+    color: red;
+}
+.menu{ 
+position: absolute; align-items: center; bottom: -2200px; color: rgb(0, 63, 0);  
+background-color: yellowgreen;
+ height: 800; border: solid 5px green;margin: 10px; padding: 50px;
+  font-size: 50px; font-style: italic;
+}
+
+.h7{position:initial; align-items: center;
+
+}
+.name{
+   position: absolute;  bottom: -2300px;padding: 5px;
+     width: 100%; height-bottom: 1200px; border:solid 5px blueviolet;
+   background-color: black;
+}
+
+h6{
+    color: blanchedalmond; font-size: 50px; margin: 200px;
+     border-bottom: solid 2px blanchedalmond;
+}
+
+.firstlable,.Emailabel,.Subjectlable,.Messagelable{ color:white; margin: 20px;
+}
+.firstname{
+  width: 200px; height: 40px;  border-radius: 10px; background-color: cyan;margin: 60px;
+ ;padding: 20px;
+}
+.Email{
+    width: 200px; height: 40px;  border-radius: 10px; background-color: cyan;margin: 80px;
+     padding: 20px;
+}
+.Subject{
+    width: 200px; height: 40px;  border-radius: 10px; background-color: cyan;
+    margin: 50px;padding: 20px;
+}
+.Message
+{
+    width: 400px; height: 150px;  border-radius: 10px; background-color: cyan; font-size:50px;
+    margin: 40px;padding: 20px;
+}
+
+.frame{
+  position:absolute; font-size: 60px; bottom: -1000px; background-image: url(bur1.jpg); 
+  color: rgb(161, 0, 0); width: 900px; height: 990px; font-style: oblique;
+  font-weight: bolder;
+}
